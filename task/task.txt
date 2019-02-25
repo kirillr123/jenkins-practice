@@ -1,0 +1,16 @@
+Comments for Task:
+1. Created continuous deployment pipeline for this application  
+2. On commit to this project Jenkins will build the project, run all tests on project and publish built artifacts to Artifactory 
+
+3. After a successful build:
+-	deploy application to staging environment verify that application is working properly after deployment 
+-	send HTTP notification to requestb.in with build info, deploy info and deploy verification info display info to which requestb.in URL HTTP notification was sent and what was the body of sent message. 
+-	
+Include instructions how to start and run implemented continuous deployment pipeline to evaluate your solution
+
+Do not create the simplest solution, but create 'production ready' solution that you would like to use in production. 
+
+Usage of Docker containers for running necessary application is preferred. 
+
+Deploying application to Kubernetes is preferred. 
+
