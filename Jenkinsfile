@@ -4,7 +4,6 @@ def binURL = 'https://google.com'
 node() {
     stage('test'){
         sh 'env'
-        echo 'Hello World'
         
         def textFild = """ Long text
         and more text...
