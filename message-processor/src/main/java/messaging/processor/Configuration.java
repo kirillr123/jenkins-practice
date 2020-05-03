@@ -20,7 +20,7 @@ import java.util.Properties;
  */
 public final class Configuration {
     protected static final String DEFAULT_QUEUE_NAME = "messageGatewayQueue";
-    protected static final String DEFAULT_QUEUE_HOST = "localhost";
+    protected static final String DEFAULT_QUEUE_HOST = System.getenv("QUEUE_HOST");
     protected static final String DEFAULT_MESSAGE_PROCESSOR_TYPE = MessageProcessorType.TYPE_A.name();
 
     private final String queueuName;
